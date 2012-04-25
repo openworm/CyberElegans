@@ -1,0 +1,22 @@
+CyberElegans.exe - binary file
+
+prj\CyberElegans.sln is the VisualStudio2008 solution file
+
+After opening it pls. set 
+Project->Properties->Configuration Properties->Debugging->Working Directory to ".."
+-- it is being changed to "" each time when project is opened on another computer.
+
+With a mouse you can rotate the scene (LeftMouseBtn+move), move it (RightMouseBtn+move) 
+or change scale with a mouse wheel.
+
+Pressing "F1" key in the program shows all available commands and their description
+(readme_change_dir.png).
+
+
+To run in "neural network editor" mode comment entire line 176
+("worm->rotateWormAroundAnterPosterAxis(90.f);") in main.cpp and recompile
+to provide correct initial position of worm body which is connected with neurons coordinates.
+This mode currently allows only selection of pseudoneurons with a mouse and moving them in 3D
+by keys described in "F1 help", as well as saving to file (overwrites existing one).
+	
+
