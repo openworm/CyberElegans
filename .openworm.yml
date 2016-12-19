@@ -1,0 +1,15 @@
+repo: openworm/CyberElegans
+shortDescription: "Neuromechanical model of C. Elegans"
+coordinator: skhayrulin@openworm.org
+documentation: "https://github.com/openworm/CyberElegans/blob/master/README"
+gitter: "http://gitter.im/openworm/sibernetic"
+keywords: 
+  - simulation
+  - worm body
+languages: 
+  - c++
+members: 
+  - skhayrulin@openworm.org
+  - palyanov.andrey@openworm.org
+parent: 
+  - openworm/sibernetic
